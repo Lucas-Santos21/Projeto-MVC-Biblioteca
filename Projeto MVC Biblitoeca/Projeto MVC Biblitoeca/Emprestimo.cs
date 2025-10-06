@@ -9,12 +9,10 @@ namespace Projeto_MVC_Biblitoeca
     class Emprestimo
     {
         //propriedades
-
         private DateTime _dtEmprestimo;
         private DateTime? _dtDevolucao;
 
         //Construtor
-
         public Emprestimo(DateTime dtEmprestimo, DateTime? dtDevolucao = null)
         {
             DtEmprestimo = dtEmprestimo;
@@ -22,7 +20,6 @@ namespace Projeto_MVC_Biblitoeca
         }
 
         //Getters e Setters
-
         public DateTime DtEmprestimo
         {
             get { return _dtEmprestimo; }

@@ -1,0 +1,7 @@
+C:\Users\User\OneDrive\Documentos\faculdade\quarto semestre\Estrutura de Dados 2\Projeto MVC Biblioteca\Projeto MVC Biblitoeca\Projeto MVC Biblitoeca\bin\Debug\Projeto MVC Biblitoeca.exe.config
+C:\Users\User\OneDrive\Documentos\faculdade\quarto semestre\Estrutura de Dados 2\Projeto MVC Biblioteca\Projeto MVC Biblitoeca\Projeto MVC Biblitoeca\bin\Debug\Projeto MVC Biblitoeca.exe
+C:\Users\User\OneDrive\Documentos\faculdade\quarto semestre\Estrutura de Dados 2\Projeto MVC Biblioteca\Projeto MVC Biblitoeca\Projeto MVC Biblitoeca\bin\Debug\Projeto MVC Biblitoeca.pdb
+C:\Users\User\OneDrive\Documentos\faculdade\quarto semestre\Estrutura de Dados 2\Projeto MVC Biblioteca\Projeto MVC Biblitoeca\Projeto MVC Biblitoeca\obj\Debug\Projeto MVC Biblitoeca.csprojAssemblyReference.cache
+C:\Users\User\OneDrive\Documentos\faculdade\quarto semestre\Estrutura de Dados 2\Projeto MVC Biblioteca\Projeto MVC Biblitoeca\Projeto MVC Biblitoeca\obj\Debug\Projeto MVC Biblitoeca.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documentos\faculdade\quarto semestre\Estrutura de Dados 2\Projeto MVC Biblioteca\Projeto MVC Biblitoeca\Projeto MVC Biblitoeca\obj\Debug\Projeto MVC Biblitoeca.exe
+C:\Users\User\OneDrive\Documentos\faculdade\quarto semestre\Estrutura de Dados 2\Projeto MVC Biblioteca\Projeto MVC Biblitoeca\Projeto MVC Biblitoeca\obj\Debug\Projeto MVC Biblitoeca.pdb

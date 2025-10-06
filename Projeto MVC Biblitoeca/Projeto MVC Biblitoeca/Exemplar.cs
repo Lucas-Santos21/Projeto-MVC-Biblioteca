@@ -31,29 +31,12 @@ namespace Projeto_MVC_Biblitoeca
             set { _emprestimos = value; }
         }
 
-        //Metodos publicos
-        public bool emprestar()
-        {
-            bool saida = false;
-
-            if(disponivel() == true)
-            {
-                DateTime dtEmprestimo = DateTime.Now;
-
-                Emprestimos.Add(new Emprestimo(dtEmprestimo));
-
-                saida = true;
-            }
-
-            return saida;
-
-        }
-
+        //Metodos Publicos
         public bool disponivel()
         {
             bool saida = false;
 
-            if(Emprestimos.Count == 0)
+            if (Emprestimos.Count == 0)
             {
                 saida = true;
             }
@@ -70,6 +53,63 @@ namespace Projeto_MVC_Biblitoeca
 
             return saida;
 
+        }
+
+
+        public bool emprestar()
+        {
+            bool saida = false;
+
+            if(disponivel() == true)
+            {
+                DateTime dtEmprestimo = DateTime.Now;
+
+                Emprestimos.Add(new Emprestimo(dtEmprestimo));
+
+                saida = true;
+
+                Console.WriteLine("Emprestimo realizado");
+            }
+            else
+            {
+                Console.WriteLine("Exemplar não disponivel para emprestimo");
+            }
+
+            return saida;
+
+        }
+
+       public bool devolver()
+        {
+            bool saida = false;
+
+            if(Emprestimos.Count > 0)
+            {
+                Emprestimo ultimo = Emprestimos.Last();
+
+                if (ultimo.DtDevolucao == null)
+                {
+                    Emprestimos[Emprestimos.Count - 1].DtDevolucao = DateTime.Now;
+                    saida = true;
+                }
+                else
+                {
+                    Console.WriteLine("Este exemplar ja foi devolvido");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Não a emprestimos registrados para este exemplar");
+            }
+
+            return saida;
+
+        }
+
+        public int qtdeEmprestimos()
+        {
+            return Emprestimos.Count;
         }
 
     }
